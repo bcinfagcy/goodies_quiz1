@@ -1,14 +1,14 @@
 # goodies_quiz1
 
-Usage: /api/<selection>       example: /api/black lion
+Usage:   /api/<selection>               (example: /api/black lion)
 
 selection choices:
- black lion
- blue lion
- red lion
- yellow lion
- pink lion
- green lion
+ black lion,
+ blue lion,
+ red lion,
+ yellow lion,
+ pink lion,
+ green lion,
 
 in the future?
  let users/players enter properties.
