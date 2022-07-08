@@ -51,10 +51,11 @@ app.get('/api/:lion', (request, response) => {
     // let results = voltron_lions
     let results = voltron_lions[request.params.lion]
     let ans = JSON.stringify(results)
+    console.log(ans)
     response.json(ans)
 })
 
 
-app.listen(PORT, () =>{
-    console.log(`The server is now running on ${PORT}! Betta Go Catch It!`)
+app.listen(process.env.PORT || PORT, () =>{
+    console.log(`The server is now running on ${PORT} or maybe ${process.env.PORT} ! Betta Go Catch It!`)
 })
